@@ -2,7 +2,7 @@
   "name": "venue",
   "version": "0.0.0",
   "scripts": {
-    "build": "ng build --prod && node build-elements.js && cp -R ./elements/{venue.js} ../0_Website/html",
+    "build": "ng build --prod",
     "ng": "ng",
     "start": "ng serve",
     "test": "ng test",
