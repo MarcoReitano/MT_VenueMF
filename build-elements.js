@@ -10,6 +10,7 @@ const concat = require('concat');
   await fs.ensureDir('elements')
   await concat(files, 'elements/venue.js');
   await fs.copyFile('./dist/venue/styles.css', 'elements/styles.css')
+  await fs.copyFile('./dist/venue/styles.css', 'elements/styles.css')
   // await fs.copy('./dist/venue/assets/', 'elements/assets/' )
 
 })()
